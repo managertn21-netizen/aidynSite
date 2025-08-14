@@ -19,4 +19,25 @@
   </main>
   <div data-include="footer"></div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(location.search);
+  const cat = params.get('cat');
+  const names = {
+    paper: 'Бумага и бумажная продукция',
+    stationery: 'Канцелярские товары',
+    household: 'Хозяйственные товары',
+    food: 'Продукты питания',
+    tech: 'Техника и электроника',
+    toner: 'Картриджи и тонер',
+    furniture: 'Мебель и интерьер',
+    gifts: 'Подарки и сувиниры',
+    creative: 'Товары для творчества и учебы'
+  };
+  if (cat && names[cat]) {
+    document.querySelector('.hero h2').textContent = names[cat];
+    document.title = names[cat];
+  }
+});
+</script>
 </body></html>

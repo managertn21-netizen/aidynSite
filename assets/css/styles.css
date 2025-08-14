@@ -22,17 +22,15 @@ a{text-decoration:none;color:inherit}
 .sidebar-item .title{font-weight:700;letter-spacing:.3px}
 .sidebar-item .chev{opacity:.7}
 /* simple black category icons */
-.i-chair::before{content:"🪑"}
-.i-stool::before{content:"□"}
-.i-table::before{content:"━"}
-.i-sofa::before{content:"🛋️"}
-.i-cabinet::before{content:"❚❚"}
-.i-bed::before{content:"🛏️"}
-.i-garden::before{content:"🏡"}
-.i-cafe::before{content:"🏛️"}
-.i-office::before{content:"👔"}
-.i-home::before{content:"👜"}
-.i-leather::before{content:"🧴"}
+.i-paper::before{content:"📄"}
+.i-stationery::before{content:"✏️"}
+.i-household::before{content:"🧼"}
+.i-food::before{content:"🍎"}
+.i-tech::before{content:"💻"}
+.i-toner::before{content:"🖨️"}
+.i-furniture::before{content:"🛋️"}
+.i-gift::before{content:"🎁"}
+.i-creative::before{content:"🎨"}
 .sidebar-item .i{width:22px;text-align:center;font-size:18px}
 /* === RIGHT PAGE AREA === */
 .page-wrap{margin-left:var(--sidebar-w)}
