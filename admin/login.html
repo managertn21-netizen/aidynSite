@@ -1,0 +1,37 @@
+<!doctype html><html lang="ru"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Вход администратора</title>
+<link rel="stylesheet" href="/assets/css/styles.css"/><script defer src="/assets/js/include.js"></script>
+</head><body>
+<div data-include="sidebar"></div>
+<div class="page-wrap">
+  <div data-include="header"></div>
+  <main>
+    
+<div class="auth-wrap" style="min-height:70vh;display:flex;align-items:center;justify-content:center">
+  <div class="auth-card" style="width:100%;max-width:420px;background:#fff;border-radius:16px;padding:24px;box-shadow:0 10px 24px rgba(0,0,0,.08)">
+    <h2>Вход в админ-панель</h2>
+    <p style="color:var(--muted);margin:0 0 10px">Демо: <code>admin / admin</code></p>
+    <form id="login-form">
+      <label for="user">Логин</label><input id="user" required style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"/>
+      <label for="pass">Пароль</label><input id="pass" type="password" required style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"/>
+      <button type="submit" style="margin-top:12px;width:100%;padding:12px;border:none;border-radius:10px;background:var(--brand1);color:#fff;cursor:pointer">Войти</button>
+    </form>
+  </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const f=document.getElementById('login-form');
+  f.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const u=document.getElementById('user').value.trim();
+    const p=document.getElementById('pass').value.trim();
+    if(u==='admin'&&p==='admin'){location.href='/admin/dashboard.html'}else{alert('Неверный логин или пароль (демо: admin / admin)')}
+  })
+})
+</script>
+
+  </main>
+  <div data-include="footer"></div>
+</div>
+</body></html>
