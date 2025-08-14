@@ -10,33 +10,41 @@
     
 <section class="hero">
   <h2 style="margin:0 0 8px 0">Категория</h2>
-  <div class="grid-products">
-    <article class="card"><img src="https://dummyimage.com/600x400/ffffff/000000.png&text=Товар"/><div class="title">Товар 1</div><div class="price">1 000 тг</div><button>Добавить в корзину</button></article>
-    <article class="card"><img src="https://dummyimage.com/600x400/ffffff/000000.png&text=Товар"/><div class="title">Товар 2</div><div class="price">2 000 тг</div><button>Добавить в корзину</button></article>
-  </div>
+  <div class="grid-products"></div>
 </section>
+
+<div id="product-modal" class="modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);align-items:center;justify-content:center;z-index:1000">
+  <div style="background:#fff;padding:20px;border-radius:10px;max-width:500px;width:100%;position:relative">
+    <button class="close" style="position:absolute;top:10px;right:10px">✕</button>
+    <img class="modal-img" src="" alt="" style="width:100%;height:auto"/>
+    <h3 class="modal-title"></h3>
+    <p>Артикул: <span class="modal-sku"></span></p>
+    <p>На складе: <span class="modal-stock"></span></p>
+    <p class="modal-short"></p>
+    <p class="modal-desc"></p>
+    <div style="display:flex;gap:10px;align-items:center;margin-top:10px">
+      <input type="number" class="qty" value="1" min="1" style="width:80px"/>
+      <button class="add-to-cart">Добавить в корзину</button>
+    </div>
+  </div>
+</div>
 
   </main>
   <div data-include="footer"></div>
 </div>
+<script src="/assets/js/products.js"></script>
+<script src="/assets/js/cart.js"></script>
+<script src="/assets/js/category.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(location.search);
   const cat = params.get('cat');
-  const names = {
-    paper: 'Бумага и бумажная продукция',
-    stationery: 'Канцелярские товары',
-    household: 'Хозяйственные товары',
-    food: 'Продукты питания',
-    tech: 'Техника и электроника',
-    toner: 'Картриджи и тонер',
-    furniture: 'Мебель и интерьер',
-    gifts: 'Подарки и сувиниры',
-    creative: 'Товары для творчества и учебы'
-  };
-  if (cat && names[cat]) {
-    document.querySelector('.hero h2').textContent = names[cat];
-    document.title = names[cat];
+  if (cat && window.CATEGORY_NAMES[cat]) {
+    document.querySelector('.hero h2').textContent = window.CATEGORY_NAMES[cat];
+    document.title = window.CATEGORY_NAMES[cat];
+  } else {
+    document.querySelector('.hero h2').textContent = 'Товары со скидкой и новинки';
+    document.title = 'Товары со скидкой и новинки';
   }
 });
 </script>
