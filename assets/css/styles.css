@@ -43,7 +43,11 @@ a{text-decoration:none;color:inherit}
 .nav{display:flex;align-items:center;gap:18px;font-size:14px;justify-content:flex-end}
 .nav .item{display:flex;align-items:center;gap:8px;white-space:nowrap}
 .nav .pill{padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.25)}
-.subbar{background:#fff;display:flex;justify-content:space-between;align-items:center;min-height:var(--subbar-h);padding:0 16px;border-bottom:1px solid #f0f0f0}
+.subbar{background:#fff;border-bottom:1px solid #f0f0f0}
+.subbar-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:32px;flex-wrap:wrap;min-height:var(--subbar-h)}
+.subbar-block{display:flex;align-items:flex-start;gap:12px}
+.subbar-block .info{display:flex;flex-direction:column;gap:4px}
+.phones-main .phones{display:flex;flex-direction:column;gap:4px}
 .title{font-size:13px;font-weight:800}
 .phones{display:flex;flex-direction:column;gap:4px}
 .phone .num{color:var(--brand1);font-weight:800}
