@@ -21,12 +21,13 @@
 </div>
 <script>
 document.addEventListener('DOMContentLoaded',()=>{
+  localStorage.removeItem('isAdmin');
   const f=document.getElementById('login-form');
   f.addEventListener('submit',(e)=>{
     e.preventDefault();
     const u=document.getElementById('user').value.trim();
     const p=document.getElementById('pass').value.trim();
-    if(u==='admin'&&p==='admin'){location.href='/admin/dashboard.html'}else{alert('Неверный логин или пароль (демо: admin / admin)')}
+    if(u==='admin'&&p==='admin'){localStorage.setItem('isAdmin','true');location.href='/admin/dashboard.html'}else{alert('Неверный логин или пароль (демо: admin / admin)')}
   })
 })
 </script>

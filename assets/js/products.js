@@ -19,6 +19,7 @@ for (const key of Object.keys(CATEGORY_NAMES)) {
     name: `${CATEGORY_NAMES[key]} ${i + 1}`,
     img: PLACEHOLDER_IMG,
     stock: 100,
+    price: 1000 + i * 50,
     short: 'Краткие характеристики товара',
     desc: 'Описание товара',
     addedAt: Date.now() - i

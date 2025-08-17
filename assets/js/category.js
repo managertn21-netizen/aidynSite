@@ -20,9 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
     article.innerHTML = `
       <img src="${p.img}" alt="${p.name}">
       <div class="title">${p.name}</div>
-      <div class="actions">
-        <button class="details" data-sku="${p.sku}">Подробнее</button>
+      <div>В наличии: ${p.stock}</div>
+      <div class="price">${p.price} тг</div>
+      <div class="actions" style="display:flex;gap:8px;align-items:center;margin-top:4px">
+        <input type="number" class="qty" min="1" max="${p.stock}" value="1" style="width:60px">
         <button class="add" data-sku="${p.sku}">В корзину</button>
+        <button class="details" data-sku="${p.sku}">Подробнее</button>
       </div>`;
     grid.appendChild(article);
   });
@@ -32,7 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!sku) return;
     const product = products.find(p => p.sku === sku);
     if (e.target.classList.contains('add')) {
-      Cart.add(sku, 1);
+      const card = e.target.closest('.card');
+      const qtyInput = card.querySelector('.qty');
+      const qty = parseInt(qtyInput.value, 10) || 1;
+      Cart.add(sku, qty);
     } else if (e.target.classList.contains('details')) {
       openModal(product);
     }
@@ -54,6 +60,7 @@ function openModal(p) {
   modal.querySelector('.modal-title').textContent = p.name;
   modal.querySelector('.modal-sku').textContent = p.sku;
   modal.querySelector('.modal-stock').textContent = p.stock;
+  modal.querySelector('.modal-price').textContent = p.price;
   modal.querySelector('.modal-short').textContent = p.short;
   modal.querySelector('.modal-desc').textContent = p.desc;
   modal.querySelector('.qty').value = 1;

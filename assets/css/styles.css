@@ -44,12 +44,13 @@ a{text-decoration:none;color:inherit}
 .nav .item{display:flex;align-items:center;gap:8px;white-space:nowrap}
 .nav .pill{padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.25)}
 .subbar{background:#fff;border-bottom:1px solid #f0f0f0}
-.subbar-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:32px;flex-wrap:wrap;min-height:var(--subbar-h)}
-.subbar-block{display:flex;align-items:flex-start;gap:12px}
-.subbar-block .info{display:flex;flex-direction:column;gap:4px}
-.phones-main .phones{display:flex;flex-direction:column;gap:4px}
-.title{font-size:13px;font-weight:800}
+.subbar-inner{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:20px;padding:8px 0}
+.subbar-section{display:flex;align-items:flex-start;gap:12px;min-width:260px}
+.subbar-section .info{display:flex;flex-direction:column;gap:4px}
+.subbar-section .phones{display:flex;flex-direction:column;gap:4px}
 .phones{display:flex;flex-direction:column;gap:4px}
+.phone{display:flex;align-items:center;gap:4px}
+.title{font-size:13px;font-weight:800}
 .phone .num{color:var(--brand1);font-weight:800}
 .phone .wapp{color:#25D366;font-weight:700}
 /* CONTENT */
