@@ -5,6 +5,16 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, 'data', 'products.json');
 
 const server = http.createServer(async (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    res.statusCode = 204;
+    res.end();
+    return;
+  }
+
   if (req.method === 'GET' && req.url === '/api/products') {
     try {
       const data = await fs.readFile(DATA_FILE, 'utf8');
