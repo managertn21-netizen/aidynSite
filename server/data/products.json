@@ -1,0 +1,1820 @@
+{
+  "paper": [
+    {
+      "sku": "PAPER-001",
+      "name": "Бумага и бумажная продукция 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "PAPER-002",
+      "name": "Бумага и бумажная продукция 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "PAPER-003",
+      "name": "Бумага и бумажная продукция 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "PAPER-004",
+      "name": "Бумага и бумажная продукция 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "PAPER-005",
+      "name": "Бумага и бумажная продукция 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "PAPER-006",
+      "name": "Бумага и бумажная продукция 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "PAPER-007",
+      "name": "Бумага и бумажная продукция 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "PAPER-008",
+      "name": "Бумага и бумажная продукция 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "PAPER-009",
+      "name": "Бумага и бумажная продукция 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "PAPER-010",
+      "name": "Бумага и бумажная продукция 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "PAPER-011",
+      "name": "Бумага и бумажная продукция 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "PAPER-012",
+      "name": "Бумага и бумажная продукция 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "PAPER-013",
+      "name": "Бумага и бумажная продукция 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "PAPER-014",
+      "name": "Бумага и бумажная продукция 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "PAPER-015",
+      "name": "Бумага и бумажная продукция 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "PAPER-016",
+      "name": "Бумага и бумажная продукция 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "PAPER-017",
+      "name": "Бумага и бумажная продукция 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "PAPER-018",
+      "name": "Бумага и бумажная продукция 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "PAPER-019",
+      "name": "Бумага и бумажная продукция 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "PAPER-020",
+      "name": "Бумага и бумажная продукция 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "stationery": [
+    {
+      "sku": "STATIONERY-001",
+      "name": "Канцелярские товары 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "STATIONERY-002",
+      "name": "Канцелярские товары 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "STATIONERY-003",
+      "name": "Канцелярские товары 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "STATIONERY-004",
+      "name": "Канцелярские товары 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "STATIONERY-005",
+      "name": "Канцелярские товары 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "STATIONERY-006",
+      "name": "Канцелярские товары 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "STATIONERY-007",
+      "name": "Канцелярские товары 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "STATIONERY-008",
+      "name": "Канцелярские товары 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "STATIONERY-009",
+      "name": "Канцелярские товары 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "STATIONERY-010",
+      "name": "Канцелярские товары 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "STATIONERY-011",
+      "name": "Канцелярские товары 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "STATIONERY-012",
+      "name": "Канцелярские товары 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "STATIONERY-013",
+      "name": "Канцелярские товары 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "STATIONERY-014",
+      "name": "Канцелярские товары 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "STATIONERY-015",
+      "name": "Канцелярские товары 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "STATIONERY-016",
+      "name": "Канцелярские товары 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "STATIONERY-017",
+      "name": "Канцелярские товары 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "STATIONERY-018",
+      "name": "Канцелярские товары 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "STATIONERY-019",
+      "name": "Канцелярские товары 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "STATIONERY-020",
+      "name": "Канцелярские товары 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "household": [
+    {
+      "sku": "HOUSEHOLD-001",
+      "name": "Хозяйственные товары 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "HOUSEHOLD-002",
+      "name": "Хозяйственные товары 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "HOUSEHOLD-003",
+      "name": "Хозяйственные товары 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "HOUSEHOLD-004",
+      "name": "Хозяйственные товары 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "HOUSEHOLD-005",
+      "name": "Хозяйственные товары 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "HOUSEHOLD-006",
+      "name": "Хозяйственные товары 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "HOUSEHOLD-007",
+      "name": "Хозяйственные товары 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "HOUSEHOLD-008",
+      "name": "Хозяйственные товары 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "HOUSEHOLD-009",
+      "name": "Хозяйственные товары 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "HOUSEHOLD-010",
+      "name": "Хозяйственные товары 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "HOUSEHOLD-011",
+      "name": "Хозяйственные товары 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "HOUSEHOLD-012",
+      "name": "Хозяйственные товары 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "HOUSEHOLD-013",
+      "name": "Хозяйственные товары 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "HOUSEHOLD-014",
+      "name": "Хозяйственные товары 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "HOUSEHOLD-015",
+      "name": "Хозяйственные товары 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "HOUSEHOLD-016",
+      "name": "Хозяйственные товары 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "HOUSEHOLD-017",
+      "name": "Хозяйственные товары 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "HOUSEHOLD-018",
+      "name": "Хозяйственные товары 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "HOUSEHOLD-019",
+      "name": "Хозяйственные товары 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "HOUSEHOLD-020",
+      "name": "Хозяйственные товары 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "food": [
+    {
+      "sku": "FOOD-001",
+      "name": "Продукты питания 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "FOOD-002",
+      "name": "Продукты питания 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "FOOD-003",
+      "name": "Продукты питания 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "FOOD-004",
+      "name": "Продукты питания 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "FOOD-005",
+      "name": "Продукты питания 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "FOOD-006",
+      "name": "Продукты питания 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "FOOD-007",
+      "name": "Продукты питания 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "FOOD-008",
+      "name": "Продукты питания 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "FOOD-009",
+      "name": "Продукты питания 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "FOOD-010",
+      "name": "Продукты питания 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "FOOD-011",
+      "name": "Продукты питания 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "FOOD-012",
+      "name": "Продукты питания 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "FOOD-013",
+      "name": "Продукты питания 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "FOOD-014",
+      "name": "Продукты питания 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "FOOD-015",
+      "name": "Продукты питания 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "FOOD-016",
+      "name": "Продукты питания 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "FOOD-017",
+      "name": "Продукты питания 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "FOOD-018",
+      "name": "Продукты питания 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "FOOD-019",
+      "name": "Продукты питания 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "FOOD-020",
+      "name": "Продукты питания 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "tech": [
+    {
+      "sku": "TECH-001",
+      "name": "Техника и электроника 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "TECH-002",
+      "name": "Техника и электроника 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "TECH-003",
+      "name": "Техника и электроника 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "TECH-004",
+      "name": "Техника и электроника 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "TECH-005",
+      "name": "Техника и электроника 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "TECH-006",
+      "name": "Техника и электроника 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "TECH-007",
+      "name": "Техника и электроника 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "TECH-008",
+      "name": "Техника и электроника 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "TECH-009",
+      "name": "Техника и электроника 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "TECH-010",
+      "name": "Техника и электроника 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "TECH-011",
+      "name": "Техника и электроника 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "TECH-012",
+      "name": "Техника и электроника 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "TECH-013",
+      "name": "Техника и электроника 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "TECH-014",
+      "name": "Техника и электроника 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "TECH-015",
+      "name": "Техника и электроника 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "TECH-016",
+      "name": "Техника и электроника 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "TECH-017",
+      "name": "Техника и электроника 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "TECH-018",
+      "name": "Техника и электроника 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "TECH-019",
+      "name": "Техника и электроника 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "TECH-020",
+      "name": "Техника и электроника 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "toner": [
+    {
+      "sku": "TONER-001",
+      "name": "Картриджи и тонер 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "TONER-002",
+      "name": "Картриджи и тонер 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "TONER-003",
+      "name": "Картриджи и тонер 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "TONER-004",
+      "name": "Картриджи и тонер 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "TONER-005",
+      "name": "Картриджи и тонер 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "TONER-006",
+      "name": "Картриджи и тонер 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "TONER-007",
+      "name": "Картриджи и тонер 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "TONER-008",
+      "name": "Картриджи и тонер 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "TONER-009",
+      "name": "Картриджи и тонер 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "TONER-010",
+      "name": "Картриджи и тонер 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "TONER-011",
+      "name": "Картриджи и тонер 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "TONER-012",
+      "name": "Картриджи и тонер 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "TONER-013",
+      "name": "Картриджи и тонер 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "TONER-014",
+      "name": "Картриджи и тонер 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "TONER-015",
+      "name": "Картриджи и тонер 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "TONER-016",
+      "name": "Картриджи и тонер 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "TONER-017",
+      "name": "Картриджи и тонер 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "TONER-018",
+      "name": "Картриджи и тонер 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "TONER-019",
+      "name": "Картриджи и тонер 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "TONER-020",
+      "name": "Картриджи и тонер 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "furniture": [
+    {
+      "sku": "FURNITURE-001",
+      "name": "Мебель и интерьер 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "FURNITURE-002",
+      "name": "Мебель и интерьер 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "FURNITURE-003",
+      "name": "Мебель и интерьер 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "FURNITURE-004",
+      "name": "Мебель и интерьер 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "FURNITURE-005",
+      "name": "Мебель и интерьер 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "FURNITURE-006",
+      "name": "Мебель и интерьер 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "FURNITURE-007",
+      "name": "Мебель и интерьер 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "FURNITURE-008",
+      "name": "Мебель и интерьер 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "FURNITURE-009",
+      "name": "Мебель и интерьер 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "FURNITURE-010",
+      "name": "Мебель и интерьер 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "FURNITURE-011",
+      "name": "Мебель и интерьер 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "FURNITURE-012",
+      "name": "Мебель и интерьер 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "FURNITURE-013",
+      "name": "Мебель и интерьер 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "FURNITURE-014",
+      "name": "Мебель и интерьер 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "FURNITURE-015",
+      "name": "Мебель и интерьер 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "FURNITURE-016",
+      "name": "Мебель и интерьер 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "FURNITURE-017",
+      "name": "Мебель и интерьер 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "FURNITURE-018",
+      "name": "Мебель и интерьер 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "FURNITURE-019",
+      "name": "Мебель и интерьер 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "FURNITURE-020",
+      "name": "Мебель и интерьер 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "gifts": [
+    {
+      "sku": "GIFTS-001",
+      "name": "Подарки и сувиниры 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "GIFTS-002",
+      "name": "Подарки и сувиниры 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "GIFTS-003",
+      "name": "Подарки и сувиниры 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "GIFTS-004",
+      "name": "Подарки и сувиниры 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "GIFTS-005",
+      "name": "Подарки и сувиниры 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "GIFTS-006",
+      "name": "Подарки и сувиниры 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "GIFTS-007",
+      "name": "Подарки и сувиниры 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "GIFTS-008",
+      "name": "Подарки и сувиниры 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "GIFTS-009",
+      "name": "Подарки и сувиниры 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "GIFTS-010",
+      "name": "Подарки и сувиниры 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "GIFTS-011",
+      "name": "Подарки и сувиниры 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "GIFTS-012",
+      "name": "Подарки и сувиниры 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "GIFTS-013",
+      "name": "Подарки и сувиниры 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "GIFTS-014",
+      "name": "Подарки и сувиниры 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "GIFTS-015",
+      "name": "Подарки и сувиниры 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "GIFTS-016",
+      "name": "Подарки и сувиниры 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "GIFTS-017",
+      "name": "Подарки и сувиниры 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "GIFTS-018",
+      "name": "Подарки и сувиниры 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "GIFTS-019",
+      "name": "Подарки и сувиниры 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "GIFTS-020",
+      "name": "Подарки и сувиниры 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ],
+  "creative": [
+    {
+      "sku": "CREATIVE-001",
+      "name": "Товары для творчества и учебы 1",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1000,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240157
+    },
+    {
+      "sku": "CREATIVE-002",
+      "name": "Товары для творчества и учебы 2",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1050,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240156
+    },
+    {
+      "sku": "CREATIVE-003",
+      "name": "Товары для творчества и учебы 3",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1100,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240155
+    },
+    {
+      "sku": "CREATIVE-004",
+      "name": "Товары для творчества и учебы 4",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1150,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240154
+    },
+    {
+      "sku": "CREATIVE-005",
+      "name": "Товары для творчества и учебы 5",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1200,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240153
+    },
+    {
+      "sku": "CREATIVE-006",
+      "name": "Товары для творчества и учебы 6",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1250,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240152
+    },
+    {
+      "sku": "CREATIVE-007",
+      "name": "Товары для творчества и учебы 7",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1300,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240151
+    },
+    {
+      "sku": "CREATIVE-008",
+      "name": "Товары для творчества и учебы 8",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1350,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240150
+    },
+    {
+      "sku": "CREATIVE-009",
+      "name": "Товары для творчества и учебы 9",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1400,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240149
+    },
+    {
+      "sku": "CREATIVE-010",
+      "name": "Товары для творчества и учебы 10",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1450,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240148
+    },
+    {
+      "sku": "CREATIVE-011",
+      "name": "Товары для творчества и учебы 11",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1500,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240147
+    },
+    {
+      "sku": "CREATIVE-012",
+      "name": "Товары для творчества и учебы 12",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1550,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240146
+    },
+    {
+      "sku": "CREATIVE-013",
+      "name": "Товары для творчества и учебы 13",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1600,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240145
+    },
+    {
+      "sku": "CREATIVE-014",
+      "name": "Товары для творчества и учебы 14",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1650,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240144
+    },
+    {
+      "sku": "CREATIVE-015",
+      "name": "Товары для творчества и учебы 15",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1700,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240143
+    },
+    {
+      "sku": "CREATIVE-016",
+      "name": "Товары для творчества и учебы 16",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1750,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240142
+    },
+    {
+      "sku": "CREATIVE-017",
+      "name": "Товары для творчества и учебы 17",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1800,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240141
+    },
+    {
+      "sku": "CREATIVE-018",
+      "name": "Товары для творчества и учебы 18",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1850,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240140
+    },
+    {
+      "sku": "CREATIVE-019",
+      "name": "Товары для творчества и учебы 19",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1900,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240139
+    },
+    {
+      "sku": "CREATIVE-020",
+      "name": "Товары для творчества и учебы 20",
+      "img": "https://i.ibb.co/2FsfXqM/sample.jpg",
+      "stock": 100,
+      "price": 1950,
+      "short": "Краткие характеристики товара",
+      "desc": "Описание товара",
+      "addedAt": 1755608240138
+    }
+  ]
+}

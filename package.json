@@ -4,7 +4,8 @@
   "description": "AidynSite — проект интернет-магазина. Цель — создать сайт для покупки товаров по различным категориям.",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
