@@ -1,7 +1,7 @@
 
 :root{
-  --brand1:#c71f2d; --brand2:#a31225;
-  --grad:linear-gradient(90deg,#c71f2d, #b01922 50%, #a31225);
+  --brand1:#fd8207; --brand2:#fd8207;
+  --grad:linear-gradient(90deg,#fd8207, #fd8207 50%, #fd8207);
   --text:#222; --muted:#6b7280; --bg:#f6f7f9;
   --sidebar-w: 300px;
   --topbar-h:74px; --subbar-h:52px;
@@ -38,11 +38,11 @@ a{text-decoration:none;color:inherit}
 .page-wrap{margin-left:var(--sidebar-w)}
 .header{position:sticky;top:0;z-index:70;background:#fff;z-index:30;box-shadow:0 2px 0 rgba(0,0,0,.06)}
 .topbar{min-height:var(--topbar-h);display:flex;align-items:center;background:var(--grad);color:#fff}
-.topbar .grid{display:grid;grid-template-columns:1fr 520px 320px;gap:16px;align-items:center;width:100%;padding:0 16px}
+.topbar .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:center;width:100%;padding:0 16px}
 .search{display:flex;align-items:center}
 .search input{width:100%;height:44px;border:none;border-radius:999px;padding:0 48px 0 16px;outline:none;font-size:15px}
 .search button{margin-left:-44px;border:none;background:transparent;cursor:pointer}
-.nav{display:flex;align-items:center;gap:18px;justify-content:flex-end}
+nav{display:flex;align-items:center;gap:18px;justify-content:space-around;flex-wrap:wrap}
 .nav .item{display:flex;align-items:center;gap:8px;white-space:nowrap}
 .nav .pill{padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.25)}
 .subbar{min-height:var(--subbar-h);background:#fff;display:flex;align-items:center;border-bottom:1px solid #f0f0f0}
@@ -59,6 +59,10 @@ a{text-decoration:none;color:inherit}
 .card .title{font-size:14px;min-height:40px}
 .card .price{font-weight:800}
 .card button{border:none;background:var(--brand1);color:#fff;padding:10px;border-radius:10px;cursor:pointer}
+/* Quantity controls */
+.qty-group{display:flex;align-items:center;gap:6px}
+.qty-group button{width:28px;height:28px;border:none;background:#e5e7eb;border-radius:6px;cursor:pointer}
+.qty-group input{width:40px;text-align:center;border:1px solid #e5e7eb;border-radius:6px;height:28px}
 /* FOOTER */
 .footer{margin-top:60px;background:#1f2937;color:#d1d5db}
 .footer .grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px;padding:36px 16px}

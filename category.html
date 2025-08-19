@@ -24,7 +24,11 @@
     <p class="modal-short"></p>
     <p class="modal-desc"></p>
     <div style="display:flex;gap:10px;align-items:center;margin-top:10px">
-      <input type="number" class="qty" value="1" min="1" style="width:80px"/>
+      <div class="qty-group">
+        <button class="qty-minus">-</button>
+        <input type="number" class="qty" value="1" min="1"/>
+        <button class="qty-plus">+</button>
+      </div>
       <button class="add-to-cart">Добавить в корзину</button>
     </div>
   </div>

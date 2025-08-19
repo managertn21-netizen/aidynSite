@@ -35,16 +35,32 @@ const Cart = {
   items() {
     return this.load();
   },
-  count() {
-    return Object.values(this.load()).reduce((a, b) => a + b, 0);
-  },
-  updateLink() {
-    const link = document.getElementById('cart-link');
-    if (!link) return;
-    const count = this.count();
-    link.textContent = `${count} шт`;
-  }
-};
+   count() {
+      return Object.values(this.load()).reduce((a, b) => a + b, 0);
+    },
+    total() {
+      const cart = this.load();
+      let sum = 0;
+      const data = (typeof window !== 'undefined' && window.ProductsData) || {};
+      for (const [sku, qty] of Object.entries(cart)) {
+        for (const cat in data) {
+          const p = data[cat].find((x) => x.sku === sku);
+          if (p) {
+            sum += p.price * qty;
+            break;
+          }
+        }
+      }
+      return sum;
+    },
+    updateLink() {
+      const link = document.getElementById('cart-link');
+      if (!link) return;
+      const count = this.count();
+      const sum = this.total();
+      link.textContent = `Корзина: ${count} шт - ${sum} тг`;
+    }
+  };
 
 window.Cart = Cart;
 document.addEventListener('DOMContentLoaded', () => Cart.updateLink());

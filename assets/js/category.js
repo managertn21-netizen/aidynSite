@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
       <div>В наличии: ${p.stock}</div>
       <div class="price">${p.price} тг</div>
       <div class="actions" style="display:flex;gap:8px;align-items:center;margin-top:4px">
-        <input type="number" class="qty" min="1" max="${p.stock}" value="1" style="width:60px">
+        <div class="qty-group">
+          <button class="qty-minus">-</button>
+          <input type="number" class="qty" min="1" max="${p.stock}" value="1">
+          <button class="qty-plus">+</button>
+        </div>
         <button class="add" data-sku="${p.sku}">В корзину</button>
         <button class="details" data-sku="${p.sku}">Подробнее</button>
       </div>`;
@@ -31,6 +35,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   grid.addEventListener('click', e => {
+    if (e.target.classList.contains('qty-minus') || e.target.classList.contains('qty-plus')) {
+      const card = e.target.closest('.card');
+      const qtyInput = card.querySelector('.qty');
+      let qty = parseInt(qtyInput.value, 10) || 1;
+      if (e.target.classList.contains('qty-minus') && qty > 1) qty--;
+      if (e.target.classList.contains('qty-plus')) qty++;
+      qtyInput.value = qty;
+      return;
+    }
     const sku = e.target.getAttribute('data-sku');
     if (!sku) return;
     const product = products.find(p => p.sku === sku);
@@ -51,6 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const qty = parseInt(modal.querySelector('.qty').value, 10) || 1;
     Cart.add(sku, qty);
     modal.style.display = 'none';
+  });
+   modal.addEventListener('click', e => {
+    if (e.target.classList.contains('qty-minus') || e.target.classList.contains('qty-plus')) {
+      const qtyInput = modal.querySelector('.qty');
+      let qty = parseInt(qtyInput.value, 10) || 1;
+      if (e.target.classList.contains('qty-minus') && qty > 1) qty--;
+      if (e.target.classList.contains('qty-plus')) qty++;
+      qtyInput.value = qty;
+    }
   });
 });
 

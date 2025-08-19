@@ -11,11 +11,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-  const adminLink = document.getElementById('admin-link');
-  const loginLink = document.getElementById('login-link');
-  if (adminLink && loginLink) {
+ const adminLink = document.getElementById('admin-link');
+    const loginLink = document.getElementById('login-link');
+    const logoutLink = document.getElementById('logout-link');
+    const cartLink = document.getElementById('cart-link');
+
     const isAdmin = localStorage.getItem('isAdmin') === 'true';
-    adminLink.style.display = isAdmin ? 'flex' : 'none';
-    loginLink.style.display = isAdmin ? 'none' : 'flex';
-  }
+    if (adminLink) adminLink.style.display = isAdmin ? 'flex' : 'none';
+    if (loginLink) loginLink.style.display = isAdmin ? 'none' : 'flex';
+    if (logoutLink) logoutLink.style.display = isAdmin ? 'flex' : 'none';
+    if (cartLink) cartLink.style.display = isAdmin ? 'none' : 'flex';
+
+    if (logoutLink) {
+      logoutLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        localStorage.removeItem('isAdmin');
+        location.href = '/';
+      });
+    }
+
+    if (window.Cart && typeof window.Cart.updateLink === 'function') {
+      window.Cart.updateLink();
+    }
 });
