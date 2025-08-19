@@ -1,64 +1,50 @@
+
+
 <header class="header">
   <div class="topbar">
-    <div class="container grid4">
+    <div class="grid container">
       <div class="search">
-        <input type="text" placeholder="Поиск по каталогу"/>
-        <button class="btn" aria-label="Search">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2">
-            <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-          </svg>
-        </button>
+        <input placeholder="Поиск по каталогу"/>
+        <button aria-label="Найти">🔍</button>
       </div>
-      <div class="nav">
-        <div class="item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg> Город: <strong>&nbsp;Алматы</strong></div>
+      <nav class="nav">
+        <div class="item">📍 Город: <strong>&nbsp;Алматы</strong></div>
         <a class="item" href="#">Магазины</a>
         <a class="item" href="#">Оплата</a>
         <a class="item" href="#">Доставка</a>
         <span class="item pill">РУС · ҚАЗ</span>
-      </div>
-      <div class="nav">
-         <a class="item" id="admin-link" href="/admin/dashboard.html" style="display:none">Админ</a>
+      </nav>
+      <nav class="nav">
+        <span id="loginState"></span>
+        <a class="item" id="admin-link" href="/admin/dashboard.html" style="display:none">Админ</a>
         <a class="item" href="/admin/login.html">Войти</a>
         <a class="item" href="#">Избранное</a>
         <a class="item" id="cart-link" href="/cart.html">0 шт</a>
-      </div>
+      </nav>
     </div>
   </div>
-    <div class="subbar">
-    <div class="container subbar-inner">
-      <div class="subbar-section service-info">
-        <div class="icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#c71f2d" stroke-width="2">
-            <path d="M22 16.92V21a2 2 0 01-2.18 2A19.86 19.86 0 013 5.18 2 2 0 015 3h4.09a2 2 0 012 1.72c.12.9.3 1.77.57 2.6a2 2 0 01-.45 2.11L10 10a16 16 0 006 6l.57-.57a2 2 0 012.11-.45c.83.27 1.7.45 2.6.57a2 2 0 011.72 2.37z"/>
-          </svg>
-        </div>
-        <div class="info">
-          <div class="title">ОБСЛУЖИВАНИЕ КЛИЕНТОВ ИНТЕРНЕТ-МАГАЗИНА:</div>
+  <div class="subbar">
+    <div class="grid container">
+      <div style="display:flex;align-items:center;gap:12px">
+        <div>📞</div>
+        <div>
+          <div class="title">ОБСЛУЖИВАНИЕ КЛИЕНТОВ ИНТЕРНЕТ‑МАГАЗИНА:</div>
           <div class="phones">
-            <div class="phone"><span>Пн–Пт 09:00–20:00</span></div>
-            <div class="phone"><span>Сб–Вс 09:00–18:00</span></div>
-            <div class="phone"><span>По вопросам онлайн заказа</span></div>
+            <div>Пн–Пт <strong>09:00–20:00</strong></div>
+            <div>Сб–Вс <strong>09:00–18:00</strong></div>
+          
           </div>
         </div>
       </div>
-      <div class="subbar-section phones-main">
-        <div class="phones">
-          <div class="phone"><span class="num">+7 (727) 313-13-68</span></div>
-          <div class="phone"><span class="num">+7 (727) 312-12-88</span></div>
-          <div class="phone"><span class="num">+7 (777) 313-13-66</span> <span class="wapp">(WhatsApp)</span></div>
-        </div>
+      <div class="phones">
+          <div style="color:var(--muted)">По вопросам онлайн‑заказа</div>
+        <div class="phone"><span class="num">+7 (727) 313‑13‑68</span></div>
+        <div class="phone"><span class="num">+7 (777) 313‑13‑66</span> <span class="wapp">(WhatsApp)</span></div>
       </div>
-      <div class="subbar-section other-phones">
-        <div class="icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#c71f2d" stroke-width="2">
-            <circle cx="12" cy="12" r="10"/><path d="M22 12h-4"/><path d="M6 12H2"/><path d="M12 2v4"/><path d="M12 18v4"/>
-          </svg>
-        </div>
-        <div class="phones">
-          <div class="phone"><span class="num">+7 (727) 313-13-51</span></div>
-          <div class="phone"><span class="num">+7 (771) 949-91-23</span></div>
-          <div class="phone"><span class="num">+7 (777) 313-13-67</span> <span class="wapp">(WhatsApp)</span></div>
-        </div>
+      <div class="phones">
+        <div class="title">CALL‑CENTER</div>
+        <div class="phone"><span class="num">+7 (727) 313‑13‑51</span></div>
+        <div class="phone"><span class="num">+7 (777) 313‑13‑67</span> <span class="wapp">(WhatsApp)</span></div>
       </div>
     </div>
   </div>

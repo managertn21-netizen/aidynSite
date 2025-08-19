@@ -10,7 +10,7 @@ const Cart = {
     cart[sku] = (cart[sku] || 0) + qty;
     this.save(cart);
     this.updateLink();
-    alert('Товар добавлен в корзину');
+  
   },
   set(sku, qty) {
     const cart = this.load();
