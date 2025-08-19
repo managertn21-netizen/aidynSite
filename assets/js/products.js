@@ -10,14 +10,16 @@ const CATEGORY_NAMES = {
   creative: 'Товары для творчества и учебы'
 };
 
+const API_BASE = 'http://localhost:3000';
+
 const Products = {
   async load() {
-    const res = await fetch('/api/products');
+   const res = await fetch('http://localhost:3000/api/products');
     if (!res.ok) throw new Error('Failed to load products');
     return res.json();
   },
   async save(data) {
-    const res = await fetch('/api/products', {
+    const res = await fetch('http://localhost:3000/api/products', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
