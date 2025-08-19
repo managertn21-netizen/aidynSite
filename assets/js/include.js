@@ -33,4 +33,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (window.Cart && typeof window.Cart.updateLink === 'function') {
       window.Cart.updateLink();
     }
+    
+    const searchInput = document.getElementById('site-search');
+    const searchBtn = document.getElementById('site-search-btn');
+    if (searchInput && searchBtn) {
+      const runSearch = () => {
+        const q = searchInput.value.trim();
+        if (q) location.href = `/category.html?search=${encodeURIComponent(q)}`;
+      };
+      searchBtn.addEventListener('click', runSearch);
+      searchInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          runSearch();
+        }
+      });
+    }
 });

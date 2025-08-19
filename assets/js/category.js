@@ -1,8 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(location.search);
   const cat = params.get('cat');
+ const search = params.get('search');
   let products = [];
-  if (cat && window.ProductsData[cat]) {
+  if (search) {
+    const all = Object.values(window.ProductsData).flat();
+    const q = search.toLowerCase();
+    products = all.filter(p =>
+      p.sku.toLowerCase().includes(q) ||
+      p.name.toLowerCase().includes(q) ||
+      p.desc.toLowerCase().includes(q)
+    );
+  } else if (cat && window.ProductsData[cat]) {
     products = window.ProductsData[cat];
   } else {
     const all = Object.values(window.ProductsData).flat();

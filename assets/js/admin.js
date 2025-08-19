@@ -16,7 +16,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function render(filter = '') {
     const f = filter.toLowerCase();
     const list = allProducts()
-      .filter(p => p.name.toLowerCase().includes(f) || p.sku.toLowerCase().includes(f))
+     .filter(p =>
+        p.name.toLowerCase().includes(f) ||
+        p.sku.toLowerCase().includes(f) ||
+        p.desc.toLowerCase().includes(f)
+      )
       .sort((a, b) => a.sku.localeCompare(b.sku));
     tableBody.innerHTML = '';
     list.forEach(p => {

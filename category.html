@@ -43,8 +43,12 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(location.search);
+  const search = params.get('search');
   const cat = params.get('cat');
-  if (cat && window.CATEGORY_NAMES[cat]) {
+  if (search) {
+    document.querySelector('.hero h2').textContent = `Результаты поиска: ${search}`;
+    document.title = `Поиск: ${search}`;
+  } else if (cat && window.CATEGORY_NAMES[cat]) {
     document.querySelector('.hero h2').textContent = window.CATEGORY_NAMES[cat];
     document.title = window.CATEGORY_NAMES[cat];
   } else {
