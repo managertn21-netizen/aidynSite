@@ -5,7 +5,7 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, 'data', 'products.json');
 
 const server = http.createServer(async (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -39,8 +39,7 @@ const server = http.createServer(async (req, res) => {
         if (typeof data !== 'object' || Array.isArray(data)) {
           res.statusCode = 400;
           res.setHeader('Content-Type', 'application/json');
-          res.end(JSON.stringify({ error: 'Invalid data' }));
-          return;
+          res.end(JSON.stringify({ error: 'Invalid data' }));                  
         }
         await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2));
         res.setHeader('Content-Type', 'application/json');
