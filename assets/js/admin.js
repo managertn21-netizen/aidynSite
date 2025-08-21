@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data = window.ProductsData;
+  let data = {};
   const form = document.getElementById('add-form');
   const tableBody = document.querySelector('#prod-table tbody');
   const searchInput = document.getElementById('search');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function render(filter = '') {
     const f = filter.toLowerCase();
     const list = allProducts()
-     .filter(p =>
+      .filter(p =>
         p.name.toLowerCase().includes(f) ||
         p.sku.toLowerCase().includes(f) ||
         p.desc.toLowerCase().includes(f)
@@ -25,26 +25,41 @@ document.addEventListener('DOMContentLoaded', () => {
     tableBody.innerHTML = '';
     list.forEach(p => {
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${p.sku}</td><td>${p.name}</td><td>${p.stock}</td><td><button class="edit" data-cat="${p.cat}" data-index="${p.index}">Редактировать</button></td>`;
+      tr.innerHTML = `<td>${p.sku}</td><td>${p.name}</td><td>${p.price}</td><td>${p.stock}</td><td><button class="edit" data-cat="${p.cat}" data-index="${p.index}">Редактировать</button></td>`;
       tableBody.appendChild(tr);
     });
   }
 
-  render();
+  async function loadProducts() {
+    try {
+      data = await Products.load();
+      window.ProductsData = data;
+      render();
+    } catch (err) {
+      alert('Не удалось загрузить товары: ' + err.message);
+    }
+  }
+
+  loadProducts();
 
   searchInput.addEventListener('input', () => render(searchInput.value));
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const product = {
       sku: form.sku.value,
       name: form.name.value,
       img: form.img.value,
       stock: parseInt(form.stock.value, 10),
+      price: parseFloat(form.price.value),
       short: form.short.value,
       desc: form.desc.value,
       addedAt: Date.now()
     };
+    if (isNaN(product.price)) {
+      alert('Укажите корректную цену');
+      return;
+    }
     const cat = form.cat.value;
     if (editing) {
       const old = data[editing.cat][editing.index];
@@ -53,16 +68,22 @@ document.addEventListener('DOMContentLoaded', () => {
         data[cat][editing.index] = product;
       } else {
         data[editing.cat].splice(editing.index, 1);
+        if (!data[cat]) data[cat] = [];
         data[cat].push(product);
       }
       editing = null;
       form.querySelector('button[type="submit"]').textContent = 'Добавить';
     } else {
+      if (!data[cat]) data[cat] = [];
       data[cat].push(product);
     }
-    Products.save(data);
-    render();
-    form.reset();
+    try {
+      await Products.save(data);
+      render();
+      form.reset();
+    } catch (err) {
+      alert('Ошибка сохранения: ' + err.message);
+    }
   });
 
   tableBody.addEventListener('click', e => {
@@ -75,31 +96,100 @@ document.addEventListener('DOMContentLoaded', () => {
     form.name.value = p.name;
     form.img.value = p.img;
     form.stock.value = p.stock;
+    form.price.value = p.price;
     form.short.value = p.short;
     form.desc.value = p.desc;
     form.querySelector('button[type="submit"]').textContent = 'Обновить';
     editing = { cat, index };
   });
 
-  const users = [
-    { name: 'user1', action: 'вход' },
-    { name: 'user2', action: 'создал заказ' }
-  ];
-  const userBody = document.querySelector('#users-table tbody');
-  users.forEach(u => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `<td>${u.name}</td><td>${u.action}</td>`;
-    userBody.appendChild(tr);
+  // Users module
+  let usersData = [];
+  const userForm = document.getElementById('user-form');
+  const usersBody = document.querySelector('#users-table tbody');
+
+  function renderUsers() {
+    usersBody.innerHTML = '';
+    usersData.forEach((u, idx) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${u.name}</td><td><button class="del-user" data-index="${idx}">Удалить</button></td>`;
+      usersBody.appendChild(tr);
+    });
+  }
+
+  UsersAPI.load().then(d => { usersData = d; renderUsers(); });
+
+  userForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const user = { name: userForm.name.value };
+    usersData.push(user);
+    try {
+      await UsersAPI.save(usersData);
+      renderUsers();
+      userForm.reset();
+    } catch (err) {
+      alert('Ошибка сохранения пользователя: ' + err.message);
+    }
   });
 
-  const orders = [
-    { id: 1, user: 'user1', total: 1000 },
-    { id: 2, user: 'user2', total: 2000 }
-  ];
+  usersBody.addEventListener('click', async e => {
+    if (!e.target.classList.contains('del-user')) return;
+    const idx = parseInt(e.target.dataset.index, 10);
+    usersData.splice(idx, 1);
+    try {
+      await UsersAPI.save(usersData);
+      renderUsers();
+    } catch (err) {
+      alert('Ошибка удаления пользователя: ' + err.message);
+    }
+  });
+
+  // Orders module
+  let ordersData = [];
+  const orderForm = document.getElementById('order-form');
   const ordersList = document.getElementById('orders-list');
-  orders.forEach(o => {
-    const li = document.createElement('li');
-    li.textContent = `Заказ #${o.id} от ${o.user} на сумму ${o.total} тг`;
-    ordersList.appendChild(li);
+
+  function renderOrders() {
+    ordersList.innerHTML = '';
+    ordersData.forEach((o, idx) => {
+      const li = document.createElement('li');
+      li.innerHTML = `Заказ #${o.id} от ${o.user} на сумму ${o.total} тг <button class="del-order" data-index="${idx}">×</button>`;
+      ordersList.appendChild(li);
+    });
+  }
+
+  OrdersAPI.load().then(d => { ordersData = d; renderOrders(); });
+
+  orderForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const order = {
+      id: Date.now(),
+      user: orderForm.user.value,
+      total: parseFloat(orderForm.total.value)
+    };
+    if (isNaN(order.total)) {
+      alert('Некорректная сумма');
+      return;
+    }
+    ordersData.push(order);
+    try {
+      await OrdersAPI.save(ordersData);
+      renderOrders();
+      orderForm.reset();
+    } catch (err) {
+      alert('Ошибка сохранения заказа: ' + err.message);
+    }
+  });
+
+  ordersList.addEventListener('click', async e => {
+    if (!e.target.classList.contains('del-order')) return;
+    const idx = parseInt(e.target.dataset.index, 10);
+    ordersData.splice(idx, 1);
+    try {
+      await OrdersAPI.save(ordersData);
+      renderOrders();
+    } catch (err) {
+      alert('Ошибка удаления заказа: ' + err.message);
+    }
   });
 });
