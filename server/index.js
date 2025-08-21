@@ -17,15 +17,21 @@ const server = http.createServer(async (req, res) => {
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
+  // Normalize URL so that `/path/` and `/path?x=1` resolve correctly
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  let pathname = url.pathname;
+  if (pathname.length > 1 && pathname.endsWith('/')) pathname = pathname.slice(0, -1);
+  const route = ROUTES[pathname];
+
   if (req.method === 'OPTIONS') {
     res.statusCode = 204;
     res.end();
     return;
   }
 
-  if (req.method === 'GET' && ROUTES[req.url]) {
+  if (req.method === 'GET' && route) {
     try {
-      const data = await fs.readFile(ROUTES[req.url], 'utf8');
+      const data = await fs.readFile(route, 'utf8');
       res.setHeader('Content-Type', 'application/json');
       res.end(data);
     } catch (err) {
@@ -36,7 +42,7 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  if (req.method === 'POST' && ROUTES[req.url]) {
+  if (req.method === 'POST' && route) {
     let body = '';
     req.on('data', chunk => {
       body += chunk;
@@ -50,7 +56,7 @@ const server = http.createServer(async (req, res) => {
           res.end(JSON.stringify({ error: 'Invalid data' }));
           return;
         }
-        await fs.writeFile(ROUTES[req.url], JSON.stringify(data, null, 2));
+        await fs.writeFile(route, JSON.stringify(data, null, 2));
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify({ status: 'ok' }));
       } catch (err) {
