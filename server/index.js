@@ -39,7 +39,8 @@ const server = http.createServer(async (req, res) => {
         if (typeof data !== 'object' || Array.isArray(data)) {
           res.statusCode = 400;
           res.setHeader('Content-Type', 'application/json');
-          res.end(JSON.stringify({ error: 'Invalid data' }));                  
+          res.end(JSON.stringify({ error: 'Invalid data' }));
+          return;                  
         }
         await fs.writeFile(DATA_FILE, JSON.stringify(data, null, 2));
         res.setHeader('Content-Type', 'application/json');
