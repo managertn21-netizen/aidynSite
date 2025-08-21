@@ -28,7 +28,7 @@ const Cart = {
     this.save(cart);
     this.updateLink();
   },
-  clear() {
+   clear() {
     localStorage.removeItem('cart');
     this.updateLink();
   },
@@ -53,14 +53,18 @@ const Cart = {
       }
       return sum;
     },
-    updateLink() {
-      const link = document.getElementById('cart-link');
-      if (!link) return;
-      const count = this.count();
-      const sum = this.total();
-      link.textContent = `Корзина: ${count} шт - ${sum} тг`;
-    }
-  };
+  updateLink() {
+    const link = document.getElementById('cart-link');
+    if (!link) return;
+    const count = this.count();
+    const sum = this.total();
+    link.textContent = `Корзина: ${count} шт - ${sum} тг`;
+  }
+};
 
 window.Cart = Cart;
 document.addEventListener('DOMContentLoaded', () => Cart.updateLink());
+// когда данные товаров подгружены асинхронно, обновляем ссылку ещё раз
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('products-loaded', () => Cart.updateLink());
+}

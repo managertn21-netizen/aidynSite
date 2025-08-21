@@ -27,7 +27,7 @@ const Products = {
     return request('/api/products');
   },
   save(data) {
-    return request('/api/products', data);
+return request('/api/products', data);
   }
 };
 
@@ -52,6 +52,30 @@ const OrdersAPI = {
 window.Products = Products;
 window.UsersAPI = UsersAPI;
 window.OrdersAPI = OrdersAPI;
+
+// Храним товары и событие загрузки данных в глобальной области
 window.ProductsData = {};
-Products.load().then(data => { window.ProductsData = data; });
+window.ProductsDataLoaded = false;
+
+function setProductsData(data) {
+  window.ProductsData = data;
+  window.ProductsDataLoaded = true;
+  // уведомляем слушателей, что данные готовы
+  window.dispatchEvent(new Event('products-loaded'));
+}
+
+Products.load().then(setProductsData);
+
+// Удобный помощник, чтобы дождаться загрузки данных
+window.onProductsLoaded = function (fn) {
+  if (window.ProductsDataLoaded) {
+    fn();
+  } else {
+    window.addEventListener('products-loaded', fn, { once: true });
+  }
+};
+window.ProductsLoaded = Products.load().then(data => {
+  window.ProductsData = data;
+  return data;
+});
 window.CATEGORY_NAMES = CATEGORY_NAMES;
